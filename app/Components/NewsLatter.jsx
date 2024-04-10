@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { fadeIn } from "../variants";
 import { motion } from "framer-motion";
@@ -7,10 +7,11 @@ const NewsLatter = () => {
   return (
     <div>
       <motion.div
-            variants={fadeIn("up", 0.3)}
-            initial="hidden"
-            whileInView={"show"}
-      className="2xl:mx-auto 2xl:container mx-4 py-10">
+        variants={fadeIn("up", 0.3)}
+        initial="hidden"
+        whileInView={"show"}
+        className="2xl:mx-auto 2xl:container mx-4 pt-14"
+      >
         <div className="w-full relative flex items-center justify-center">
           <div className="bg-[#0B0827] rounded-xl bg-opacity-80  lg:py-16 w-full md:mx-24 md:px-12 px-4 flex flex-col items-center justify-center relative z-40">
             <h1 className="text-4xl font-semibold leading-9 text-white text-center">
