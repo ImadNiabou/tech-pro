@@ -2,7 +2,6 @@
 import { React, useState} from "react";
 import { FaCartShopping } from "react-icons/fa6";
 import { IoMdArrowDropup, IoMdArrowDropdown } from "react-icons/io";
-import { RiTruckFill } from "react-icons/ri";
 import { HiOutlineMenu } from "react-icons/hi";
 import Image from "next/image";
 import Logo from "../../public/logo.svg";

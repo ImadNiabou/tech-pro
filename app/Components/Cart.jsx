@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import { FaTrash } from "react-icons/fa6";
 import useCartStore from "../../cartStore";
 import Link from "next/link";
