@@ -8,6 +8,7 @@
     "lint": "next lint",
     "build": "next build"
   },
+  
   "dependencies": {
     "@clerk/nextjs": "^4.29.9",
     "@emotion/react": "^11.11.4",
